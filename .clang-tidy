@@ -1,0 +1,9 @@
+{
+  "Checks": '-clang-analyzer-deadcode.DeadStores',
+  "ExtraArgs": [
+    "-std=c++20",
+  ],
+  "ExtraArgsBefore": [
+    "-xc++",
+  ]
+}
